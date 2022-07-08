@@ -1,0 +1,110 @@
+[
+    {
+        "response_type": "savings",
+        "user_input": ["what", "savings", "account"],
+        "bot_response": "A savings account is a bank account at a retail bank. Common features include a limited number of withdrawals, a lack of cheque and linked debit card facilities, limited transfer options, and the inability to be overdrawn.<br>Kindly tell what would you like to know more about savings accounts?",
+        "required_words": ["savings"]
+    },
+    {
+        "response_type": "savings",
+        "user_input": ["what", "benefit", "benefits", "savings", "account"],
+        "bot_response": "<b>USD 1.60% AER/Gross, GBP 1.25% AER/Gross</b><br><ul><li>Know exactly how much interest you'll earn</li><li>Once your account is opened, rates are fixed for the 3 month term</li><li>Deposits must be new to Noor Bank</li><li>Minimum deposit GBP/USD 25,000</li><li>Maximum deposit GBP/USD 2.5m (GBP/USD 5m for joint accounts)</li></ul>Kindly tell what would you like to know more about savings accounts?",
+        "required_words": ["savings"]
+    },
+    {
+        "response_type": "savings",
+        "user_input": ["make", "account", "create", "get", "savings", "open"],
+        "bot_response": "In order to create an account, kindly fill out the form in the following link: <a href='https://ibank2.nrbuae.com/online/main/termspage.php'>Create Account</a>",
+        "required_words": ["savings"]
+    },
+    {
+        "response_type": "savings",
+        "user_input": ["check", "account", "see", "details", "transactions", "savings", "make"],
+        "bot_response": "In order to access your account account, kindly login into your account at the following link:  <a href='https://ibank2.nrbuae.com/online/main/'>Login</a>",
+        "required_words": ["savings", "account"]
+    },
+    {
+        "response_type": "current",
+        "user_input": ["what", "current", "account"],
+        "bot_response": "Current accounts are usually non-interest bearing deposit accounts which are designated to perform day-to-day banking transactions: money can be withdrawn from a current account or deposited to such an account without any restrictions. To facilitate the banking transactions, current accounts are as a rule provided together with payment cards (debit or credit cards).<br>Kindly tell what would you like to know more about current accounts?",
+        "required_words": ["current"]
+    },
+    {
+        "response_type": "current",
+        "user_input": ["what", "benefit", "benefits", "current", "account"],
+        "bot_response": "Get access to ur account whenever you need it without penalty. Easy access to your account.<br>Kindly tell what would you like to know more about savings accounts?",
+        "required_words": ["current"]
+    },
+    {
+        "response_type": "current",
+        "user_input": ["make", "account", "create", "get", "current", "open"],
+        "bot_response": "In order to create an account, kindly fill out the form in the following link: <a href='https://ibank2.nrbuae.com/online/main/termspage.php'>Create Account</a>",
+        "required_words": ["current", "account"]
+    },
+    {
+        "response_type": "current",
+        "user_input": ["check", "account", "see", "details", "transactions", "current", "make"],
+        "bot_response": "In order to access your account account, kindly login into your account at the following link:  <a href='https://ibank2.nrbuae.com/online/main/'>Login</a>",
+        "required_words": ["current"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["hello", "hi", "hey"],
+        "bot_response": "Hey There!<br>Welcome to Noor Bank!<br>I am Charlie the ChatBot!",
+        "required_words": []
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["what", "your", "name"],
+        "bot_response": "I am Charlie the ChatBot!<br>Welcome to Noor Bank!",
+        "required_words": ["name"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["help"],
+        "bot_response": "How may I help you?",
+        "required_words": ["help"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["how", "can", "help"],
+        "bot_response": "Try typing what you are looking for, I will try my best to help with that!",
+        "required_words": ["how", "help"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["how", "are", "you"],
+        "bot_response": "I am doing well! How can I help you?",
+        "required_words": ["how", "are", "you"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["nice", "to", "meet"],
+        "bot_response": "The pleasure is all mine!",
+        "required_words": ["nice", "meet"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["nice", "meeting"],
+        "bot_response": "The pleasure is all mine!",
+        "required_words": ["nice", "meeting"]
+    },
+    {
+        "response_type": "end",
+        "user_input": ["thank", "you", "thanks"],
+        "bot_response": "Happy to know that I was helpful!",
+        "required_words": []
+    },
+    {
+        "response_type": "back",
+        "user_input": ["something", "else"],
+        "bot_response": "How may I help you?",
+        "required_words": ["something", "else"]
+    },
+    {
+        "response_type": "end",
+        "user_input": ["see you", "bye", "goodbye", "exit"],
+        "bot_response": "See you later! Hope I was helpful!",
+        "required_words": []
+    }
+]

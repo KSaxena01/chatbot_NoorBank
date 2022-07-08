@@ -1,0 +1,98 @@
+[
+    {
+        "response_type": "back",
+        "user_input": ["different", "savings", "account", "benefits"],
+        "bot_response": "",
+        "required_words": ["savings"]
+    },
+    {
+        "response_type": "back",
+        "user_input": ["something", "else"],
+        "bot_response": "How may I help you?",
+        "required_words": ["something", "else"]
+    },
+    {
+        "response_type": "current",
+        "user_input": ["what", "current", "account"],
+        "bot_response": "Current accounts are usually non-interest bearing deposit accounts which are designated to perform day-to-day banking transactions: money can be withdrawn from a current account or deposited to such an account without any restrictions. To facilitate the banking transactions, current accounts are as a rule provided together with payment cards (debit or credit cards). Moreover, current accounts are often offered with overdraft possibility: the account holder can keep withdrawing money from the account even when the account has no funds or the funds are not enough to cover the withdrawal.<br>Kindly tell what would you like to know more about savings accounts?",
+        "required_words": []
+    },
+    {
+        "response_type": "current",
+        "user_input": ["what", "benefit", "benefits", "current", "account"],
+        "bot_response": "Get access to ur account whenever you need it without penalty. Easy access to your account.<br>Kindly tell what would you like to know more about savings accounts?",
+        "required_words": []
+    },
+    {
+        "response_type": "current",
+        "user_input": ["make", "account", "create", "get", "current", "account", "open"],
+        "bot_response": "In order to create an account, kindly fill out the form in the following link: <a href='https://ibank2.nrbuae.com/online/main/termspage.php'>Create Account</a>",
+        "required_words": []
+    },
+    {
+        "response_type": "current",
+        "user_input": ["check", "account", "see", "details", "transactions", "current", "make"],
+        "bot_response": "In order to access your account account, kindly login into your account at the following link: <a href='https://ibank2.nrbuae.com/online/main'>Login</a>",
+        "required_words": []
+    },
+    {
+        "response_type": "current",
+        "user_input": ["more", "information", "current", "account"],
+        "bot_response": "For more information kindly visit: <a href='https://www.nrbuae.com/p/banking/cur-savings.php#'>More Information</a>",
+        "required_words": []
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["hello", "hi", "hey"],
+        "bot_response": "Hey There!<br>Welcome to Noor Bank!<br>I am Charlie the ChatBot!",
+        "required_words": []
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["what", "your", "name"],
+        "bot_response": "I am Charlie the ChatBot!<br>Welcome to Noor Bank!",
+        "required_words": ["name"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["help"],
+        "bot_response": "How may I help you?",
+        "required_words": ["help"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["how", "can", "help"],
+        "bot_response": "Try typing what you are looking for, I will try my best to help with that!",
+        "required_words": ["how", "help"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["how", "are", "you"],
+        "bot_response": "I am doing well! How can I help you?",
+        "required_words": ["how", "are", "you"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["nice", "to", "meet"],
+        "bot_response": "The pleasure is all mine!",
+        "required_words": ["nice", "meet"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["nice", "meeting"],
+        "bot_response": "The pleasure is all mine!",
+        "required_words": ["nice", "meeting"]
+    },
+    {
+        "response_type": "end",
+        "user_input": ["thank", "you", "thanks"],
+        "bot_response": "Happy to know that I was helpful!",
+        "required_words": []
+    },    
+    {
+        "response_type": "end",
+        "user_input": ["see you", "bye", "goodbye", "exit"],
+        "bot_response": "See you later! Hope I was helpful!",
+        "required_words": []
+    }
+]

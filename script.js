@@ -44,13 +44,13 @@ class Chatbox {
         }
 
         let msg1 = { name: "User", message: text1 }
-        this.messages.push(msg1);
 
         let req = new XMLHttpRequest();
         req.open("GET", "http://127.0.0.1:5000/predict/"+text1)
         req.send()
         req.onload = () => {
             let msg2 = { name: "Charlie", message: JSON.parse(req.response) };
+            this.messages.push(msg1);
             this.messages.push(msg2);
             this.updateChatText(chatbox)
             textField.value = ''
@@ -60,19 +60,27 @@ class Chatbox {
 
     updateChatText(chatbox) {
         var html = '';
-        this.messages.slice().reverse().forEach(function(item, index) {
-            if (item.name === "Charlie")
+        var prev = '';
+        var usr = '';
+        this.messages.slice().forEach(function(item, index) {
+            console.log(item.name)
+            if (item.name === "User")
             {
-                html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
+                usr = '<div class="messages__item messages__item--operator">' + item.message + '</div>'
+                html = '<div class="messages__item messages__item--operator">' + item.message + '</div>' + prev
+                const chatmessage = chatbox.querySelector('.chatbox__messages');
+                chatmessage.innerHTML = html;
             }
             else
             {
-                html += '<div class="messages__item messages__item--operator">' + item.message + '</div>'
+                prev = '<div class="messages__item messages__item--visitor">' + item.message + '</div>' + usr + prev
+                html = prev
+                setTimeout(function() {
+                    const chatmessage = chatbox.querySelector('.chatbox__messages');
+                    chatmessage.innerHTML = html;
+                  }, 3000);
             }
           });
-
-        const chatmessage = chatbox.querySelector('.chatbox__messages');
-        chatmessage.innerHTML = html;
     }
 }
 
